@@ -403,7 +403,7 @@ class VisualOdometry():
 
 
 def main():
-    data_dir = 'KITTI_sequence_2'  # Try KITTI_sequence_2
+    data_dir = 'C:/Users/cassa/NuovoAmbiente/ComputerVision/VisualOdometry/KITTI_sequence_1'  # Try KITTI_sequence_2
     vo = VisualOdometry(data_dir)
 
     play_trip(vo.images_l, vo.images_r)  # Comment out to not play the trip
